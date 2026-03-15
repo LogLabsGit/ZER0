@@ -1,5 +1,4 @@
 
-
 <div align="center">
 
 ```
@@ -50,7 +49,7 @@ La primera vez que lo abras, ZER0 te pregunta tu nombre y lo recuerda en cada se
 
 ```bash
 # 1. Clona el repositorio
-git clone https://github.com/L0GLabs/ZER0.git
+git clone https://github.com/LogLabsGit/ZER0.git
 cd ZER0
 
 # 2. Dale permisos al instalador
@@ -190,7 +189,7 @@ Y elimina el bloque `# ─── ZER0 ───` de tu `.bashrc` / `.zshrc`.
 
 **LogLabs**
 
-[![GitHub](https://img.shields.io/badge/GitHub-L0GLabs-181717?style=flat-square&logo=github)](https://github.com/L0GLabs)
-[![Repo](https://img.shields.io/badge/Repo-ZER0-red?style=flat-square&logo=github)](https://github.com/L0GLabs/ZER0)
+[![GitHub](https://img.shields.io/badge/GitHub-LogLabsGit-181717?style=flat-square&logo=github)](https://github.com/LogLabsGit)
+[![Repo](https://img.shields.io/badge/Repo-ZER0-red?style=flat-square&logo=github)](https://github.com/LogLabsGit/ZER0)
 
 </div>
