@@ -162,6 +162,7 @@ AUTHOR  = "LogLabs"
 GITHUB  = "https://github.com/LogLabsGit"
 REPO    = "https://github.com/LogLabsGit/ZER0"
 MIT     = "MIT License — Copyright (c) 2026 LogLabs"
+WEB     = "https://loglabsgit.github.io/ZER0"
 
 BANNER = f"""
 {R}  ██████╗ ███████╗██████╗  ██████╗ {RST}
@@ -341,6 +342,7 @@ STRINGS = {
         "about_dev":         "Desarrollado por:",
         "about_github":      "GitHub:",
         "about_repo":        "Repositorio:",
+        "about_web":        "Website:",
         "about_version":     "Versión:",
         "defaults_loaded":   "Atajos por defecto cargados.",
         "defaults_skip":     "ya existe, se omitió.",
@@ -388,6 +390,7 @@ STRINGS = {
         "about_dev":         "Developed by:",
         "about_github":      "GitHub:",
         "about_repo":        "Repository:",
+        "about_web":        "Website:",
         "about_version":     "Version:",
         "defaults_loaded":   "Default shortcuts loaded.",
         "defaults_skip":     "already exists, skipped.",
@@ -605,6 +608,7 @@ def show_about(config: dict) -> None:
         f"  {t(config, 'about_license')} {W}{MIT}{RST}{C}  ",
         f"  {t(config, 'about_github')}  {C}{GITHUB}{RST}{C}  ",
         f"  {t(config, 'about_repo')}   {C}{REPO}{RST}{C}  ",
+        f"  {t(config, 'about_web')}    {C}{WEB}{RST}{C}  ",
     ], color=C)
     print()
 
